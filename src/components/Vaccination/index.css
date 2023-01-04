@@ -1,0 +1,316 @@
+.vaccination-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  width: 100%;
+  min-height: 100vh;
+}
+.state-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85vw;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+.home-icon {
+  height: 32px;
+  width: 32px;
+  color: #cbd5e1;
+  margin-right: 10px;
+}
+.india-state-name-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #cbd5e1;
+}
+.drop-down-menu-container {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  justify-content: flex-end;
+}
+.select-menu-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 16px;
+  height: 52px;
+  background: #2f2f43;
+  opacity: 0.5;
+  border-radius: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  margin-right: 15px;
+  width: 300px;
+  flex-grow: 0;
+}
+
+.state-drop-down-name {
+  height: 65px;
+  width: 204px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.vaccination-trends-container {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.sites-meta-data-container {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  justify-content: space-around;
+}
+.sites-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #2f2f43;
+  border-radius: 10px;
+  padding: 15px;
+  width: 40vw;
+}
+.sites-emoji-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.emoji-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #161625;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.vaccine-emoji {
+  height: 30px;
+  width: 30px;
+}
+.sites-conducting-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cbd5e1;
+}
+.sites-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.public-private-container {
+  display: flex;
+  align-items: center;
+}
+.public-sites {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cbd5e1;
+  margin-right: 50px;
+}
+.vaccination-trends-area-chart-container {
+  width: 85vw;
+  background-color: #1c1c2b;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 15px;
+}
+.vac-trends-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #94a3b8;
+}
+.vac-trends-button-container {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+}
+.vac-trends-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #94a3b8;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.doses-trend-container {
+  background-color: transparent;
+  display: flex;
+  width: 85vw;
+  min-height: 300px;
+}
+.ages-trend-container {
+  background-color: transparent;
+  display: flex;
+  width: 80vw;
+  min-height: 300px;
+}
+.display-none-container {
+  display: none;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.vaccination-category {
+  width: 49%;
+  height: 420px;
+  background-color: #1c1c2b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.left-pie-charts {
+  width: 100%;
+  height: 48%;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+.vaccination-by-age {
+  width: 49%;
+  height: 420px;
+  background-color: #1c1c2b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.right-piechart {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.trend-heading {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .vaccination-details-container {
+    margin-top: 0px;
+    padding: 0px 10px;
+  }
+  .state-name-container {
+    width: 100%;
+    padding-left: 5px;
+  }
+  .drop-down-menu-container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 7px;
+    justify-content: flex-start;
+  }
+  .india-state-name-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .select-menu-class {
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  .pie-charts-container {
+    flex-direction: column;
+    width: 85vw;
+  }
+  .gender-vaccine-category-container {
+    width: 85vw;
+    margin-bottom: 10px;
+  }
+  .vac-age-container {
+    width: 85vw;
+    margin-bottom: 10px;
+  }
+  .sites-meta-data-container {
+    width: 100%;
+  }
+  .sites-meta-data-container {
+    flex-direction: column;
+  }
+  .sites-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .sites-conducting-heading {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sites-count {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .vac-trends-heading {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .vac-trends-button {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .vaccine-category-heading {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .vaccination-trends-container {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  .vaccination-trends-area-chart-container {
+    width: 100%;
+    margin-right: 15px;
+  }
+  .emoji-container {
+    padding: 16px;
+  }
+  .bottom-container {
+    flex-direction: column;
+  }
+  .vaccination-category {
+    width: 100%;
+  }
+  .vaccination-by-age {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

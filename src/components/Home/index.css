@@ -1,0 +1,151 @@
+.main-container {
+  background: #161625;
+  min-height: 2450px;
+}
+.sub-container {
+  padding: 18px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  height: 55px;
+  width: 50%;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background: #2f2f43;
+}
+.input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.search-icon {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0px 12px;
+}
+
+.search-result-container {
+  list-style-type: none;
+  width: 785px;
+  top: 220px;
+  margin-right: 32px;
+  border-radius: 0px;
+}
+.renderAllData-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 32px;
+}
+.stats-block-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.stats-icon {
+  font-size: 38px;
+}
+.stats-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.red {
+  color: #ff073a;
+}
+.blue {
+  color: #007bff;
+}
+.green {
+  color: #28a745;
+}
+.gray {
+  color: #6c757d;
+}
+
+.all-states-table {
+  width: 1146px;
+  background: #1e1e30;
+  border: 1px solid #475569;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  height: 2080px;
+  padding: 0px;
+}
+.table-header {
+  border-bottom: 1px solid #475569;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 72px;
+}
+
+.state-name-heading {
+  display: flex;
+}
+.table-header-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f8fafc;
+}
+.order {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.loader-container {
+  margin-top: 53px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-container {
+    width: 100%;
+  }
+  .search-result-container {
+    width: 100%;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  .renderAllData-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .stats-block-column {
+    width: 40%;
+  }
+  .container {
+    width: 100%;
+  }
+}
